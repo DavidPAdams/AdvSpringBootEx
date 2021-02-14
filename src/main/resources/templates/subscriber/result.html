@@ -10,12 +10,17 @@
 </head>
 <body>
   <div class="container-fluid">
-    <h3>Subscriber Sign-up Form</h3>
-    <p>Thank you for signing up!</p>
-    <h4>Subscriber:</h4>
-    <p th:text="${firstName}"></p>
-    <p th:text="${lastName}" />
-    <p th:text="${username}" />
+    <div class="card">
+    <div class="card-header text-white bg-primary">
+      <h3>Thank you for signing up!</h3>
+      </div>
+      <div class="card-body">
+      <h5 class="card-title">Subscriber:</h5>
+      <p class="card-text" th:text="${firstName}"></p>
+      <p class="card-text" th:text="${lastName}" />
+      <p class="card-text" th:text="${username}" />
+      </div>
+    </div>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
