@@ -14,10 +14,10 @@
     <div class="list-group col-10 offset-1">
       <div th:each="subscriber:${subscribers}">
         <div class="row">
-          <div class="col-md-10 offset-1">
+          <div class="col-md-6 offset-3">
             <div class="card">
-              <div class="card-body">
-                <p th:text="${subscriber.firstName} ${subscriber.lastName}" />
+              <div class="card-body text-center">
+                <p><span th:text="${subscriber.firstName}"></span> <span th:text="${subscriber.lastName}"></span></p>
                 <a href="#"><button class="btn btn-warning">User Details</button></a>
               </div>
             </div>
@@ -25,6 +25,7 @@
         </div>
       </div>
     </div>
+    <a href="/" class="btn btn-primary">Home page</a>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
