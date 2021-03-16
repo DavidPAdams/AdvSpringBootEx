@@ -8,11 +8,11 @@
 		<version>2.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.tts.subscriberListHW</groupId>
+	<groupId>com.dav.subscriberListHW</groupId>
 	<artifactId>subscriberListHW</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>subscriberListHW</name>
-	<description>Subscriber List project Homework</description>
+	<description>Subscriber List project</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

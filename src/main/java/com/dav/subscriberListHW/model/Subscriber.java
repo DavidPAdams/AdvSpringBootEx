@@ -1,4 +1,4 @@
-package com.tts.subscriberListHW.model;
+package com.dav.subscriberListHW.model;
 
 import java.util.Date;
 

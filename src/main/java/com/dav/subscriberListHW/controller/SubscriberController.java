@@ -1,4 +1,4 @@
-package com.tts.subscriberListHW.controller;
+package com.dav.subscriberListHW.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,8 +9,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.tts.subscriberListHW.model.Subscriber;
-import com.tts.subscriberListHW.repository.SubscriberRepository;
+import com.dav.subscriberListHW.model.Subscriber;
+import com.dav.subscriberListHW.repository.SubscriberRepository;
 
 @Controller
 public class SubscriberController {
